@@ -20,7 +20,7 @@ function toggleMode() {
     img.setAttribute('alt', 'avatar de oculos escuros')
   } else {
     // se tiver sem light mode, manter  a imagem normal
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute('src', "./assets/avatar.png")
     img.setAttribute("alt", "avatar de oculos claros")
   }
 }
